@@ -1,0 +1,30 @@
+{
+  "email": {
+    "recipients": ["abc@hotmail.com"],
+    "from": "abc@hotmail.com",
+    "subject": "Auto-generated email, Drainage Inspector(s) daily report",
+    "server": "smtp.office365.com",
+    "port":587,
+    "password":"******"
+  },
+  "sendEmail":false,
+  "dateTrackerFileName": "tracker.json",
+
+  "connectionString": {
+    "gdbName":"SampleData.gdb"
+  },
+  "layers":{
+    "segmentLayerName":"Segments",
+    "pointLayerName":"Points"
+  },
+  "tables": {
+    "segmentInspectionTableName": "SegmentsInspection",
+    "segmentDetailTable":"INVPWCAAT9",
+    "pointInspectionTableName": "PointsInspection"
+  },
+  "addressLocator":"https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/ArcGIS World Geocoding Service",
+  "admin": {
+    "errorRecipients": [ "abc@hotmail.com" ]
+  },
+  "trackTime":false
+}
